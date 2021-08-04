@@ -129,8 +129,8 @@ def on_message(self, msg):
             f.write(transcript)
 
 def textToSpeech():
-    apikey = 'w0av2jPmxOzResQbUtshMp-BoaP9hb8a5-QMciDnYLIj'
-    url = 'https://api.us-east.text-to-speech.watson.cloud.ibm.com/instances/63af4151-807b-4883-b0d4-f4197d52d2fb'
+    apikey = 'CfWLaEoYfwLNaPClqP0wO0632JotmXeGbojipazNMBYa'
+    url = 'https://api.us-east.text-to-speech.watson.cloud.ibm.com/instances/57b8cebf-0cf8-4ff8-8003-ffe4731454ed'
 
     authenticator = IAMAuthenticator(apikey)
     tts = TextToSpeechV1(authenticator=authenticator)
